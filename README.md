@@ -8,8 +8,6 @@ Ce script Bash, `log-archive`, est conçu pour archiver les fichiers de logs d'u
 
 - **Archivage des logs** : Compresse les fichiers de logs dans un fichier `.tar.gz`.
 - **Journalisation** : Enregistre la date et l'heure de création de chaque archive dans un fichier de log.
-- **Notifications par email** : Optionnellement, envoie une notification par email après la création de l'archive.
-- **Planification** : Peut être configuré pour s'exécuter automatiquement à des intervalles réguliers avec `cron`.
 
 ## Prérequis
 
