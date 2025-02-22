@@ -28,11 +28,11 @@ Ce script Bash, `log-archive`, est conçu pour archiver les fichiers de logs d'u
    ```
 3. **Archiver les logs** :
    ```bash
-   ./log-archive /path/to/log-directory
+   ./log-archive.sh /path/to/log-directory
    ```
    ## Exemple
    ```bash
-   ./log-archive /var/log
+   sudo ./log-archive.sh /var/log
    ```
 
 
