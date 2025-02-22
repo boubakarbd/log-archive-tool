@@ -11,14 +11,16 @@ Ce script Bash, `log-archive`, est conçu pour archiver les fichiers de logs d'u
 
 ## Prérequis
 
-- Un système Unix-like avec Bash installé.
+- Un système Unix avec Bash installé.
 - `tar` et `gzip` pour la compression des fichiers.
 - `mailutils` ou un autre agent de transfert de mail pour l'envoi d'emails (facultatif).
 
 ## Installation
 
 1. **Télécharger le script** :
-   - Sauvegardez le script dans un fichier nommé `log-archive`.
+   ```bash
+   git clone https://github.com/boubakarbd/log-archive-tool.git
+   ```
 
 2. **Rendre le script exécutable** :
    ```bash
